@@ -14,10 +14,4 @@ hooks:
     - location: scripts/start_container.sh
       timeout: 20
       runas: root
-    - location: scripts/docker_up.sh
-      timeout: 20
-      runas: root
-    - location: scripts/db_rake.sh
-      timeout: 20
-      runas: root
 runas: ec2-user
